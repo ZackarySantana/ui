@@ -5,6 +5,13 @@ mutation SaveAdminSettings($adminSettings: AdminSettingsInput!) {
       httpListenAddr
       url
     }
+    authConfig {
+      oauth {
+        clientId
+        connectorId
+        issuer
+      }
+    }
     banner
     bannerTheme
     disabledGQLQueries
