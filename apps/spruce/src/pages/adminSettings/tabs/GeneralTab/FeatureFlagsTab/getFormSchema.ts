@@ -41,7 +41,7 @@ const featureItems: Record<string, string> = {
   sleepScheduleDisabled: "Unexpirable host sleep schedule",
   releaseModeDisabled: "Release Mode",
   elasticIPsDisabled: "Elastic IPs  for task hosts",
-  staticAPIKeysDisabled: "Static API Keys credentials for users",
+  staticAPIKeysDisabled: "Static API Keys credentials for users disabled",
   backgroundReauthDisabled: "Background Reauthentication",
   debugSpawnHostDisabled: "Debug spawn hosts",
 };
